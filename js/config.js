@@ -4,6 +4,7 @@ console.log('config file loaded-------------------');
 
 requirejs.config({
     baseUrl: 'js/app',
+    deps: ['init'],
     paths: {
         angular: [
             'https://ajax.googleapis.com/ajax/libs/angularjs/1.4.9/angular.min',
